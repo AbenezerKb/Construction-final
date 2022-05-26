@@ -1,0 +1,127 @@
+@media screen {
+    :root {
+        --color-teal: #007a76;
+        --color-teal-dark: #006663;
+        --color-teal-light: #00a19c;
+    }
+
+    .text-teal {
+        color: var(--color-teal-dark);
+    }
+
+    .bg-teal {
+        background-color: var(--color-teal) !important;
+    }
+
+    .btn-teal {
+        color: var(--color-teal) !important;
+        border-color: var(--color-teal) !important;
+        background-color: transparent !important;
+    }
+
+    .btn-teal:hover {
+        color: white !important;
+        border-color: var(--color-teal) !important;
+        background-color: var(--color-teal) !important;
+    }
+
+    .help-teal-dark {
+        background-color: var(--color-teal) !important;
+        border-color: var(--color-teal) !important;
+        color: white !important;
+        border-radius: 5px !important;
+    }
+
+    .btn-teal-dark {
+        background-color: var(--color-teal) !important;
+        border-color: var(--color-teal) !important;
+    }
+
+    .btn-teal-dark:hover {
+        background-color: var(--color-teal-dark) !important;
+        border-color: var(--color-teal-dark) !important;
+    }
+
+    .sidebar-decrease-padding * :not(.pro-arrow, .pro-sidebar-header) {
+        padding-top: 2px !important;
+        padding-bottom: 2px !important;
+    }
+
+    .sidebar-decrease-padding .pro-sidebar-header {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+        border-bottom: 0px !important;
+    }
+
+    select:focus,
+    textarea:focus,
+    input:focus,
+    input[type="text"]:focus,
+    input[type="password"]:focus,
+    input[type="datetime"]:focus,
+    input[type="datetime-local"]:focus,
+    input[type="date"]:focus,
+    input[type="month"]:focus,
+    input[type="time"]:focus,
+    input[type="week"]:focus,
+    input[type="number"]:focus,
+    input[type="email"]:focus,
+    input[type="url"]:focus,
+    input[type="search"]:focus,
+    input[type="tel"]:focus,
+    input[type="color"]:focus,
+    .uneditable-input:focus {
+        border-color: var(--color-teal-light) !important;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px var(--color-teal-light) !important;
+        outline: 0 none !important;
+    }
+
+    textarea:read-only,
+    input[type="text"]:read-only {
+        background-color: rgb(252, 252, 252) !important;
+        box-shadow: 0 0px 0px rgba(0, 0, 0, 0.075) inset, 0 0 0px var(--color-teal-light) !important;
+        border-color: rgb(235, 235, 235) !important;
+    }
+
+    textarea:read-only:focus,
+    input:read-only:focus,
+    input[type="text"]:read-only:focus {
+        border-color: var(--color-teal-light) !important;
+    }
+
+    textarea:read-write,
+    input:read-write,
+    input[type="text"]:read-write,
+    select {
+        border-color: var(--color-teal) !important;
+    }
+
+    input[type="checkbox"]:checked {
+        background-color: var(--color-teal);
+    }
+
+    input[type="checkbox"],
+    input[type="checkbox"]:checked {
+        border-color: var(--color-teal);
+    }
+
+    .asset-select *,
+    .asset-select input[type="text"] {
+        box-shadow: none !important;
+    }
+
+    .asset-select > * {
+        border-color: var(--color-teal) !important;
+    }
+
+    input.asset-select-number::-webkit-outer-spin-button,
+    input.asset-select-number::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    /* Firefox */
+    input[type="number"].asset-select-number {
+        -moz-appearance: textfield;
+    }
+}

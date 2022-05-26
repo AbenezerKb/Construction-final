@@ -1,0 +1,79 @@
+
+.loginAndRegistration input{
+ margin-bottom: 15px;
+ margin-top: 5px;
+}
+.loginAndRegistration form{
+    display: flex;
+    flex-direction: column;
+}
+.loginAndRegistration form button{
+    align-self: center;
+    background-color: #007A76;
+    padding: 6px 40px;
+}
+
+.loginAndRegistration form button:hover{
+    align-self: center;
+    background-color: #013331;
+}
+
+.loginAndRegistration form button:focus{
+    align-self: center;
+    background-color: #007A76;
+    outline: 0;
+}
+
+.loginAndRegistration form button:active{
+    align-self: center;
+    background-color: #013331;
+    outline: 0;
+}
+
+
+
+.signup{
+    max-width:750px ;
+    box-shadow: 4px 4px 10px gray;
+   padding: 50px;
+   margin: auto;
+   margin-top: 60px;
+   margin-bottom: 30px;
+   padding-bottom: 50px;
+   background-color:"#f2f2f2"
+
+}
+.login{
+    max-width:450px ;
+    box-shadow: 4px 4px 10px gray;
+   padding: 50px;
+   padding-bottom: 50px;
+   margin: auto;
+   margin-top: 60px;
+   margin-bottom: 20px;
+   background-color:"#f2f2f2"
+}
+.signup__row{
+    display: flex;
+    justify-content: space-between;
+}
+.signup__row input{
+    width: 280px;
+}
+.signup__row select{
+ margin-bottom: 15px;
+ margin-top: 5px;
+}
+.signup button{
+    margin-top: 20px;
+    padding: 5px 70px; 
+}
+.loginAndRegistration  button:disabled{
+    align-self: center;
+    background-color: #a8a8a8;
+    padding: 5px 30px;
+}
+.signup__link{
+    margin-top: 10px;
+    text-align: center;
+}
